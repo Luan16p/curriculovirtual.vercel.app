@@ -11,9 +11,10 @@ export default function ad() {
                     <div className="text_anuncios">
                         <h3>Sem Anuncios no Momento!</h3>
                         <p>Sempre prego por um programa com uma arquitetura limpa e facil de usar, no entanto anuncios mantem o software de pé, logo estou criando essa nova feature para os novos anuncios, anunciantes entrar em <Link to="/contato">Contato</Link></p>
+                        <Link to="/" className='backto'>Voltar a Pagina inicial</Link>
                     </div>
 
-                    <img src="" alt="IMG-DEMONSTR-ANUNCIO" />
+                    <img src="https://github.com/Luan16p/curriculo-virtual/blob/main/src/images/publicidades.png?raw=true" alt="IMG-DEMONSTR-ANUNCIO" />
                 </section>
             </main>
         </div>
