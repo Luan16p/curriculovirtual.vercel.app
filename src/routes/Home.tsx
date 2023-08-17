@@ -8,6 +8,7 @@ import { BsFiletypePdf, BsGithub } from "react-icons/bs";
 import { FaArrowDown } from "react-icons/fa";
 import { MdSchool, MdFeedback } from "react-icons/md";
 import { TbCodeDots } from 'react-icons/tb'
+import { RiAdvertisementFill } from 'react-icons/ri'
 
 import "../css/Home.css";
 import { Link } from "react-router-dom";
@@ -25,7 +26,6 @@ export default function Home() {
       window.location.href=`download/${anchor}`;
     }
     else {
-      // Remove a âncora da URL após o redirecionamento
       window.location.href = anchor;
       window.history.replaceState(null, '', window.location.href.split('#')[0]);
     }
@@ -189,7 +189,7 @@ export default function Home() {
 
           <Link to="ad" data-aos="fade-right" data-aos-duration="1000" className="card ad" title="Momento Anuncio">
             <div className="icons">
-              <MdFeedback className="icon" />
+              <RiAdvertisementFill className="icon" />
             </div>
 
             <div className="text">

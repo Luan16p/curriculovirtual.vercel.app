@@ -10,9 +10,6 @@ import Sitemap from "../routes/Sitemap";
 import Ad from "../routes/Ad";
 
 export default function SolidPage() {
-
-
-
     return (
         <div>
 
