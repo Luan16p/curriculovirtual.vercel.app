@@ -1,0 +1,29 @@
+@media screen and (max-width: 770px) {
+    .menu-mobile {
+        display: flex !important;
+    }
+
+    .nav-items, .cookies {
+        display: none !important;
+    }
+
+    .info .txt {
+        text-align: center !important;
+    }
+
+    .btns {
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    .feedback-list {
+        width: 90% !important;
+    }
+
+    .sitemap-fa img {
+        width: 100%;
+        height: 100%;
+    }
+
+}

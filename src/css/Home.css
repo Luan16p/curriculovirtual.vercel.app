@@ -1,0 +1,144 @@
+main {
+    width: 100%;
+    height: auto;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    padding: 30px 0px;
+    gap: 30px;
+    flex-wrap: wrap-reverse;
+}
+
+.info .atributos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+} 
+
+.info .atributos img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.info .atributos .nome {
+    text-transform: italic !important;
+}
+
+.info .txt {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: start;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+    width: 550px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.btns button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.btns button .i {
+    color: #fff !important;
+}
+
+.btns button a {
+    text-decoration: none;
+}
+
+.down-i {
+    transform: scale(1.6);
+    transition: .3s;
+}
+
+.down-i:hover {
+    opacity: .7;
+}
+
+.about {
+    height: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    background: #222 no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.card {
+    text-decoration: none;
+    width: 500px;
+    padding: 35px 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: #222;
+    transition: .3s ease-in-out;
+}
+
+.card:nth-child(1):hover {
+    color: rgb(255, 132, 84) !important;
+}
+
+.card:nth-child(2):hover {
+    color: rgb(110, 53, 148) !important;
+}
+
+.card:nth-child(3):hover {
+    color: rgb(105, 105, 105) !important;
+}
+
+.icons {
+    width: 45px;
+}
+
+.icon {
+    width: 45px;
+    height: 30px;
+}
+
+.options {
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    padding: 15px 50px 50px 50px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.h2_options {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.img-404 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}

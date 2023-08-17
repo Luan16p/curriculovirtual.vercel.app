@@ -1,0 +1,98 @@
+.feedback-routes {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: auto;
+    gap: 50px;
+}
+
+.feedback-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+
+.form-feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 100%;
+    width: 600px;
+}
+
+.form-feedback input, .form-feedback textarea {
+    padding-left: 15px;
+    outline: 0;
+    border: 1px solid #818181;
+}
+
+.form-feedback input {
+    height: 40px;
+    border-radius: 5px;
+}
+
+.form-feedback textarea {
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+
+.btn-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-submit button {
+    border-radius: 0;
+}
+
+
+.feedback-list {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.feedback-list:not(p) {
+    text-align: center;
+}
+
+.feedbacks-aceitos {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    word-break: break-all;
+}
+
+
+.feedback .name-post {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}

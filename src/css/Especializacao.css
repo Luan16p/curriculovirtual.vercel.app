@@ -1,0 +1,29 @@
+.especializacao_route {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 30px;
+    gap: 40px;
+}
+
+.especializacao_route section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: start !important;
+    justify-content: center;
+    width: 100%;
+}
+
+.especializacao_route section h3 {
+    font-weight: bold;
+}
+
+.progress-lang {
+    border-top: 1px solid #747474;
+    padding: 10px;
+}

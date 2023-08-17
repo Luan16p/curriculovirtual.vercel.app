@@ -1,0 +1,55 @@
+.formacaoacademica {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-formacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: start;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 700px;
+  }
+
+.text-formacao h3 {
+    text-align: start !important;
+    font-weight: bold;
+}
+
+.text-formacao p {
+    text-align: justify;
+}
+
+.text-formacao img {
+    width: 250px;
+    height: 500;
+    box-shadow: 0px 0px 3px #5a5a5a;
+}
+
+.forma-img {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.btn {
+    width: auto;
+}

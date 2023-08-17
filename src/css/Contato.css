@@ -1,0 +1,55 @@
+.contato {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    padding: 50px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont {
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 25px 20px;
+    gap: 10px;
+    box-shadow: 0px 0px 7px #797878;
+}
+
+.cont .cont-single h4 {
+    font-weight: bold;
+}
+
+.i-co {
+    width: 25px;
+    height: 25px;
+}
+
+.text-contato {
+    cursor: pointer;
+    transition: .3s;
+}
+
+.cont-single {
+    transition: ease-in-out;
+}
+
+.email:hover {
+    color: #ff2f2f;
+}
+
+.discord:hover {
+    color: #7289DA;
+}
+
+.whatsapp:hover {
+    color: #25D366;
+}
+
+.email-mobile p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }

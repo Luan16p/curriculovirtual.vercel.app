@@ -1,0 +1,92 @@
+.navbar  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 58px;
+}
+
+
+.logo a {
+    font-size: 21px;
+}
+
+.navbar div li {
+    list-style-type: none;
+}
+
+.navbar div a {
+    text-decoration: none;
+    color: #222;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.nav-items a, .cookies a {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-items a:hover, .cookies a:hover {
+    opacity: .8 !important;
+}
+
+.menu-mobile {
+    display: none !important;
+}
+
+.items-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.items-menu div li {
+    list-style-type: none;
+}
+
+.items-menu div a {
+    text-decoration: none;
+    color: #222;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-items-v a:hover {
+    font-weight: bold;
+}
+
+.cookies-v {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-top: .1px solid #222;
+    padding: 15px 0px;
+}
+
+.cookies-v a {
+    font-weight: bold;
+}
+
+.orwell {
+    text-align: start;
+}
+
+.orwell::before {
+    content: '"';
+    text-transform: italic;
+}
+
+.orwell::after {
+    content: '"';
+    text-transform: italic;
+}
