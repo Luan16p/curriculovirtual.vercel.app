@@ -114,6 +114,10 @@ main {
     color: rgb(105, 105, 105) !important;
 }
 
+.card:nth-child(5):hover {
+    color: rgb(28, 148, 74) !important;
+}
+
 .icons {
     width: 45px;
 }
