@@ -8,7 +8,6 @@ import { BsFiletypePdf, BsGithub } from "react-icons/bs";
 import { FaArrowDown } from "react-icons/fa";
 import { MdSchool, MdFeedback } from "react-icons/md";
 import { TbCodeDots } from 'react-icons/tb'
-import { RiAdvertisementFill } from 'react-icons/ri'
 
 import "../css/Home.css";
 import { Link } from "react-router-dom";
@@ -18,7 +17,7 @@ export default function Home() {
   const [imgData, setImgData] = useState("");
   const [namee, setName] = useState("");
 
-  const url_curriculo = "https://firebasestorage.googleapis.com/v0/b/curriculo-1b801.appspot.com/o/tcc_ifms%20(1).pdf?alt=media&token=f6104e1a-8164-4d4f-8997-0d7ebef8be3f"
+  const url_curriculo = "https://firebasestorage.googleapis.com/v0/b/curriculo-1b801.appspot.com/o/Curriculo%2C%20Luan%20Freire%20Alves%20da%20Silva.pdf?alt=media&token=06057462-319e-4144-bdce-a316102ed694"
 
   function replaceRef(anchor: any) {
     
