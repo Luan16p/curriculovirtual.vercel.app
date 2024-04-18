@@ -186,18 +186,6 @@ export default function Home() {
               <p>Deixe seu Feedback para o meu curriculo ir melhorando.</p>
             </div>
           </Link>
-
-          <Link to="ad" data-aos="fade-right" data-aos-duration="1000" className="card ad" title="Momento Anuncio">
-            <div className="icons">
-              <RiAdvertisementFill className="icon" />
-            </div>
-
-            <div className="text">
-              <h3>Anuncios Independentes</h3>
-
-              <p>Aqui estão alguns produtos que eu recomendo!</p>
-            </div>
-          </Link>
         </section>
       </main>
     </div>

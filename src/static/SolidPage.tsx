@@ -7,7 +7,6 @@ import FormacaoAcademica from "../routes/FormacaoAcademica";
 import Home from "../routes/Home";
 import Repositorios from "../routes/Repositorios";
 import Sitemap from "../routes/Sitemap";
-import Ad from "../routes/Ad";
 
 export default function SolidPage() {
     return (
@@ -22,7 +21,6 @@ export default function SolidPage() {
                 <Route path="/repositorios" element={<Repositorios/>}/>
                 <Route path="/feedback" element={<Feedback/>}/>
                 <Route path="/sitemap" element={<Sitemap/>}/>
-                <Route path="/ad" element={<Ad/>}/>
             </Routes>
 
         </div>
